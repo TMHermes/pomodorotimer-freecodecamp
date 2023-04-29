@@ -1,0 +1,101 @@
+body {
+  background-color: #bcb88a;
+  font-family: 'Alkatra', cursive;
+}
+
+.title {
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 2.5em;
+}
+
+[id*=label] {
+  font-size: 1.4em;
+}
+
+.lengths, .clock-wrapper, .clock-control {
+  align-items: center;
+  text-align: center;
+}
+
+.lengths {
+  margin: auto;
+  justify-content: center;
+}
+
+.actions-wrapper {
+  font-size: 1.5em;
+  margin-bottom: 35px;
+}
+
+.actions-wrapper button {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h2 {
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.clock-control > button {
+  margin: 8px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.clock-wrapper {
+  border: 3px solid black;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;
+}
+
+#timer-label {
+  margin-top: 10px;
+  font-size: 1.8em
+}
+
+#time-left {
+  margin-top: 20px;
+  font-size: 3.4em;
+}
+
+#start_stop {
+  margin-right: 15px;
+}
+
+.align {
+  display: inline-block;
+}
+
+#container button {
+  background-color: #474241;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #D0CCB9;
+  font-family: 'Alkatra', cursive;
+  cursor: pointer;
+}
+
+.author {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  color: #000;
+  margin-top: 90px;
+}
+
+.author a {
+  text-decoration: none;
+  color: #6EB82B;
+  font-weight: bold;
+}
